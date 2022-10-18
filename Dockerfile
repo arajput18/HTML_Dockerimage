@@ -1,5 +1,4 @@
 FROM alpine
-RUN npm install -g http-server
 COPY . /src
 WORKDIR /src
 EXPOSE 8080
